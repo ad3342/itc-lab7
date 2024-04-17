@@ -30,8 +30,8 @@ app.get('/cs212/homework/8', (req, res) => {
 // Your POST route for /cs212/homework/8
 app.post('/cs212/homework/8', (req, res) => {
     const { adjective, pluralNoun, personName, verb, noun } = req.body;
-    const madLib = `This night, I encountered a ${adjective} group of ${pluralNoun} that remind me of ${personName}. 
-                    Consequently, I chose to ${verb} near the ${noun}.`;
+    const madLib = `During the evening, I encountered a ${adjective} cluster of ${pluralNoun} 
+    that made me think of ${personName}. Consequently, I chose to ${verb} by the ${noun}.`;
 
     res.send(madLib);
 });
